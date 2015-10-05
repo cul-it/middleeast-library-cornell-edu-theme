@@ -105,12 +105,6 @@
         <?php print render($page['mobile_nav']); ?>
       </div>
     <?php endif; ?>
-    
-    <?php if (!empty($page['mobile_search'])): ?>
-      <div id="mobile-search" class="collapse">
-        <?php print render($page['mobile_search']); ?>
-      </div>
-    <?php endif; ?>
     <div class="container">
       <div class="row">
         <div class="library-brand">
